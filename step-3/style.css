@@ -1,0 +1,31 @@
+body {
+  /* body内の要素を画面中央に配置 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  /* body内のフォントを指定 */
+  font-family: "Yu Gothic", sans-serif;
+  font-weight: 500;
+  font-size: 1.3vh;
+}
+
+img {
+  /* 画像の高さの最大値を指定 */
+  max-height: 14vh;
+}
+
+.card {
+  /* カードの大きさを指定 */
+  width: 50vh;
+  height: 30vh;
+  /* カードの余白を指定 */
+  padding: 4vh;
+  /* カードの背景色を指定 */
+  background-color: khaki;
+  /* カードの角丸を指定 */
+  border-radius: 1vh;
+  /* カードの影を指定 */
+  box-shadow: 0 4vh 2vh rgba(0, 0, 0, 0.2);
+}

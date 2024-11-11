@@ -1,0 +1,87 @@
+body {
+  /* body内の要素を画面中央に配置 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  /* body内のフォントを指定 */
+  font-family: "Yu Gothic", sans-serif;
+  font-weight: 500;
+  font-size: 1.3vh;
+}
+
+img {
+  /* 画像の高さの最大値を指定 */
+  max-height: 14vh;
+}
+
+.card {
+  /* カードの大きさを指定 */
+  width: 50vh;
+  height: 30vh;
+  /* カードの余白を指定 */
+  padding: 4vh;
+  /* カードの背景色を指定 */
+  background-color: khaki;
+  /* カードの角丸を指定 */
+  border-radius: 1vh;
+  /* カードの影を指定 */
+  box-shadow: 0 4vh 2vh rgba(0, 0, 0, 0.2);
+  /* EXTRA */
+  margin: 2vh;
+  transform-origin: 60% 30%;
+  transition: all 0.2s;
+  transform: perspective(22vh) rotateY(5deg) scaleX(0.8);
+  box-shadow: -0.2vh 0.1vh 0.5vh rgba(0, 0, 0, 0.4);
+}
+
+/* EXTRA */
+.card:hover {
+  transform: perspective(22vh) rotateY(0deg) scaleX(1) translate(-1vh, -4vh);
+  box-shadow: 0 4vh 2vh rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  /* 写真と名前部分を隣に配置 */
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  /* 写真と名前部分に余白を指定 */
+  margin-left: 3vh;
+}
+
+.about {
+  /* 自己紹介文とヘッダー部分のあいだに余白を指定 */
+  margin-top: 4vh;
+}
+
+.ex-1 {
+  color: rgb(56, 54, 52);
+  background: url("../images/background-2.webp") no-repeat center center/cover;
+}
+
+.ex-1 img {
+  border-radius: 5%;
+}
+
+.ex-2 {
+  color: rgb(232, 243, 255);
+  background: url("../images/background-1.webp") no-repeat center center/cover;
+}
+
+.ex-2 img {
+  border-radius: 50%;
+}
+
+.ex-3 {
+  color: rgb(240, 240, 240);
+  background: url("../images/background-4.webp") no-repeat center center/cover;
+}
+
+.ex-3 img {
+  border-radius: 5%;
+  max-height: 16vh;
+}
