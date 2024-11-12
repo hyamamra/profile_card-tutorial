@@ -1,0 +1,33 @@
+body {
+  transition: all 1s;
+  background: linear-gradient(140deg, #fff 40%, #fffd 80%, #fffc 100%), url("../images/background-9.webp") no-repeat center center/cover;
+}
+
+.card {
+  margin: 2vh;
+  transform-origin: 60% 30%;
+  transition: all 0.2s;
+  transform: perspective(22vh) rotateY(5deg) scaleX(0.8);
+  box-shadow: -0.2vh 0.1vh 0.5vh rgba(0, 0, 0, 0.4);
+}
+
+.card:hover {
+  transform: perspective(22vh) rotateY(0deg) scaleX(1) translate(-1vh, -4vh);
+  box-shadow: 0 4vh 2vh rgba(0, 0, 0, 0.2);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 20%, rgba(255, 255, 255, 0.2) 80%);
+  transition: all 0.2s;
+}
+
+.card:hover::before {
+  opacity: 0;
+}
