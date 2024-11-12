@@ -46,11 +46,11 @@ img {
   margin-top: 4vh;
 }
 
-.extra {
+.ex {
   color: rgb(232, 243, 255);
   background: url("../images/background-1.webp") no-repeat center center/cover;
 }
 
-.extra img {
+.ex img {
   border-radius: 50%;
 }
