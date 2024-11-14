@@ -33,16 +33,16 @@ CSSファイルは、HTMLファイルで記述された要素のスタイルを�
 `body`要素はHTML文書全体を表す要素で、子要素となるプロフィールカードを画面中央に配置するために以下のスタイルを指定しています。
 ```css
 body {
-    /* 子要素のレイアウトや表示方法を`flex`に指定 */
-    display: flex;
-    /* 子要素を画面中央に配置（縦方向） */
-    align-items: center;
-    /* 子要素を画面中央に配置（横方向） */
-    justify-content: center;
-    /* body要素の高さを画面の高さいっぱいに設定 */
-    height: 100vh;
-    /* 余白を0に設定 */
-    margin: 0;
+  /* 子要素のレイアウトや表示方法を`flex`に指定 */
+  display: flex;
+  /* 子要素を画面中央に配置（縦方向） */
+  align-items: center;
+  /* 子要素を画面中央に配置（横方向） */
+  justify-content: center;
+  /* body要素の高さを画面の高さいっぱいに設定 */
+  height: 100vh;
+  /* 余白を0に設定 */
+  margin: 0;
 }
 ```
 
@@ -56,12 +56,12 @@ body {
 `body`要素内のフォントを指定するために以下のスタイルを指定しています。
 ```css
 body {
-    /* body内のフォントを指定 */
-    font-family: "Yu Gothic", sans-serif;
-    /* フォントの太さを指定 */
-    font-weight: 500;
-    /* フォントサイズを指定 */
-    font-size: 1.3vh;
+  /* body内のフォントを指定 */
+  font-family: "Yu Gothic", sans-serif;
+  /* フォントの太さを指定 */
+  font-weight: 500;
+  /* フォントサイズを指定 */
+  font-size: 1.3vh;
 }
 ```
 
@@ -73,8 +73,8 @@ body {
 `img`要素に対して画像の高さの最大値を指定するために以下のスタイルを指定しています。
 ```css
 img {
-    /* 画像の高さの最大値を指定 */
-    max-height: 14vh;
+  /* 画像の高さの最大値を指定 */
+  max-height: 14vh;
 }
 ```
 
