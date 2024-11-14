@@ -46,29 +46,11 @@ img {
   margin-top: 4vh;
 }
 
-.ex-1 {
-  color: rgb(232, 243, 255);
-  background: url("../images/background-1.webp") no-repeat center center/cover;
-}
-
-.ex-1 img {
-  border-radius: 50%;
-}
-
-.ex-2 {
-  color: rgb(56, 54, 52);
-  background: url("../images/background-7.webp") no-repeat center center/cover;
-}
-
-.ex-2 img {
-  border-radius: 50%;
-}
-
-.ex-3 {
+.ex {
   color: rgb(253, 242, 213);
-  background: url("../images/background-4.webp") no-repeat center center/cover;
+  background: url("images/background-4.webp") no-repeat center center/cover;
 }
 
-.ex-3 img {
-  border-radius: 50%;
+.ex img {
+  border-radius: 5%;
 }
