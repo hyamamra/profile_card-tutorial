@@ -29,3 +29,19 @@ img {
   /* カードの影を指定 */
   box-shadow: 0 4vh 2vh rgba(0, 0, 0, 0.2);
 }
+
+.header {
+  /* 写真と名前部分を隣に配置 */
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  /* 写真と名前部分に余白を指定 */
+  margin-left: 3vh;
+}
+
+.about {
+  /* 自己紹介文とヘッダー部分のあいだに余白を指定 */
+  margin-top: 4vh;
+}

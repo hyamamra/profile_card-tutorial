@@ -65,7 +65,7 @@ body {
 }
 ```
 
-- `font-family: "Yu Gothic", sans-serif;`：`font-family`はフォントの種類を指定するプロパティで、`"Yu Gothic", sans-serif`を指定することで、`Yu Gothic`というフォントを優先して使用し、`Yu Gothic`がインストールされていない場合は代替フォントとして`sans-serif`を使用します。
+- `font-family: "Yu Gothic", sans-serif;`：`font-family`はフォントの種類を指定するプロパティで、`"Yu Gothic", sans-serif`を指定することで、`Yu Gothic`（游ゴシック）というフォントを優先して使用し、`Yu Gothic`がインストールされていない場合は代替フォントとして`sans-serif`を使用します。
 - `font-weight: 500;`：`font-weight`はフォントの太さを指定するプロパティで、`500`を指定することで、中程度の太さのフォントを使用します。
 - `font-size: 1.3vh;`：`font-size`はフォントサイズを指定するプロパティで、`1.3vh`を指定することで、ビューポートの高さに対して1.3倍のフォントサイズを使用します。
 
@@ -90,6 +90,16 @@ img {
 
 `link`要素は外部ファイルを読み込むための要素で、`rel`属性に`stylesheet`、`href`属性にCSSファイルのURLを指定します。
 
+## 最終的なディレクトリ構造
+最終的なディレクトリ構造は以下のようになります。
+
+```bash
+profile_card
+├── image.jpg
+├── index.html
+└── style.css
+```
+
 ## ブラウザでHTMLファイルを開く
 ブラウザでHTMLファイルを開いて、プロフィールカードの表示を確認しましょう。
 すでにブラウザでHTMLファイルを開いている場合は、リロード（再読み込み）して最新の内容を表示します。
@@ -99,4 +109,4 @@ img {
 これでCSSファイルを作成し、HTMLファイルに読み込むことができました。
 次のステップではさらにCSSを適用し、プロフィールカードにスタイリングを施していきます。
 
-次のステップ: [ステップ3 - `class`を使ってみよう](../step-3/README.md)
+次のステップ: [`class`を使ってみよう](../step-3/README.md)
