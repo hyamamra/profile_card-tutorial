@@ -71,6 +71,7 @@ pはparagraph（段落）の略です。
 
 リストは`<ul>`要素（順不同リスト）と`<ol>`要素（順序付きリスト）を使って記述します。
 ulはunordered list（順不同リスト）、olはordered list（順序付きリスト）の略です。
+また、li要素はリストの項目を表し、list item（リストの項目）の略です。
 
 ```html
 <ul>
