@@ -1,9 +1,4 @@
-body {
-  background: linear-gradient(140deg, #fff 40%, #fffd 80%, #fffc 100%), url("images/background-9.webp") no-repeat center center/cover;
-}
-
 .card {
-  margin: 2vh;
   transform-origin: 60% 30%;
   transition: all 0.2s;
   transform: perspective(22vh) rotateY(5deg) scaleX(0.8);
