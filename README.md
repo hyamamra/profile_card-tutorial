@@ -7,16 +7,18 @@
 ## プロフィールカードの完成イメージ✨
 ![プロフィールカードの完成イメージ](images/profile-card.png)
 
+[完成イメージのデモを見る🌐](https://hyamamra.github.io/profile_card-tutorial/example/index.html)
+
 ## HTMLとCSSを学ぶ📚
 HTMLとCSSは、Webページを作るための基本的な言語です。全体像を把握するために、以下のページを参考にしてください。
 - [HTMLとは？](introduction/html.md)
 - [CSSとは？](introduction/css.md)
 
-もし、読むのが面倒な場合は、読むのをやめて実際に手を動かしながら学ぶことをおすすめします👍
+もし、読むのが面倒な場合は、読むのをやめて実際に手を動かしながら学ぶことをおすすめします👍  
 さっそく、プロフィールカードを作りながら、HTMLとCSSを学んでいきましょう！
 
 ## Visual Studio Codeをインストールする🦄
-[Visual Studio Code](https://code.visualstudio.com/)🌐をダウンロードしてインストールしてください。
+[Visual Studio Code](https://code.visualstudio.com/)をダウンロードしてインストールしてください。
 macOSの場合は、ダウンロードしたファイルをアプリケーションフォルダにドラッグ＆ドロップしてインストールします。
 Windowsの場合は、ダウンロードしたファイルを実行してインストールします。
 
