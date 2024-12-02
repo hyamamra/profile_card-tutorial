@@ -11,7 +11,7 @@ body {
   font-size: 1.3vh;
   /* bodyの背景画像を指定 */
   background: linear-gradient(140deg, #fff 40%, #fffd 80%, #fffc 100%),
-    url("body-background.jpg") no-repeat center center/cover;
+    url("images/body-background.webp") no-repeat center center/cover;
 }
 
 img {
@@ -26,11 +26,13 @@ img {
   /* カードの余白を指定 */
   padding: 4vh;
   /* カードの背景画像を指定 */
-  background: url("background.jpg") no-repeat center center/cover;
+  background: url("images/background.webp") no-repeat center center/cover;
   /* カードの角丸を指定 */
   border-radius: 1vh;
   /* カードの影を指定 */
   box-shadow: 0 4vh 2vh rgba(0, 0, 0, 0.2);
+  /* カードの文字色を指定 */
+  color: rgb(253, 242, 213);
 }
 
 .header {
