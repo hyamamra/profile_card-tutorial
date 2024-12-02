@@ -82,10 +82,14 @@ img {
 
 ## HTMLファイルからCSSファイルを読み込む
 `index.html`から`style.css`を読み込むようにしましょう。
-`head`タグ内に以下のコードを追加します。
+`head`タグ内に以下の`link`要素を追加します。
 
-```html
-<link rel="stylesheet" href="style.css">
+```diff
+<head>
+  <meta charset="UTF-8">
+  <title>プロフィール</title>
++ <link rel="stylesheet" href="style.css">
+</head>
 ```
 
 `link`要素は外部ファイルを読み込むための要素で、`rel`属性に`stylesheet`、`href`属性にCSSファイルのURLを指定します。
