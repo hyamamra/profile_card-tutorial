@@ -1,7 +1,12 @@
 # HTMLファイルを書いてみよう
 
 ## プロフィールカードの構造をHTMLで記述する
-任意の場所に`profile_card`フォルダを作成し、その中に`index.html`として以下のHTMLを保存してください。
+任意の場所に`profile_card`フォルダを作成し、Visual Studio Codeで開いてください。
+メニューの「File」→「Open Folder...」を選択して、`profile_card`フォルダを開きます。
+
+`profile_card`フォルダを開けたら、その中に`index.html`として以下のHTMLを保存してみましょう。
+メニューの「File」→「New File」を選択して、新しいファイルを作成し、以下のHTMLをコピー＆ペーストして保存します。
+
 フォルダ名やファイル名は何でも構いませんが、`index.html`というファイル名はWebサイトのトップページとして慣例的に使われる名前ですので、今回はこの名前を使います。
 
 ```html

@@ -10,7 +10,8 @@ body {
   font-weight: 500;
   font-size: 1.3vh;
   /* bodyの背景画像を指定 */
-  background: linear-gradient(140deg, #fff 40%, #fffd 80%, #fffc 100%), url("body-background.jpg") no-repeat center center/cover;
+  background: linear-gradient(140deg, #fff 40%, #fffd 80%, #fffc 100%),
+    url("body-background.jpg") no-repeat center center/cover;
 }
 
 img {
